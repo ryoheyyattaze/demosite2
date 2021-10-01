@@ -16,6 +16,9 @@
 }
 
 .text3 {
+  & > h1 {
+    font-size: 48px;
+  }
   &__item {
     justify-content: space-between;
   }

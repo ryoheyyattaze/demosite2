@@ -353,6 +353,9 @@ html {
 }
 
 @media (min-width: 770px) {
+  .header__btn {
+    left: 35px;
+  }
   .main__visual {
     margin-bottom: 50px;
   }
@@ -415,6 +418,9 @@ html {
   }
   .main__text {
     font-size: 100px;
+  }
+  .text3 > h1 {
+    font-size: 48px;
   }
   .text3__item {
     -webkit-box-pack: justify;
