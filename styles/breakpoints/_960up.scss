@@ -1,0 +1,30 @@
+.header {
+  &__btn {
+    opacity: 0;
+    visibility: hidden;
+  }
+  &__ul {
+    opacity: 1;
+    visibility: visible;
+  }
+}
+
+.text3 {
+  &__item {
+    justify-content: space-between;
+  }
+  &__li {
+    &:nth-child(1) {
+      flex-basis: 32%;
+      height: 370px;
+    }
+    &:nth-child(2) {
+      flex-basis: 32%;
+      height: 370px;
+    }
+    &:nth-child(3) {
+      flex-basis: 32%;
+      height: 370px;
+    }
+  }
+}
