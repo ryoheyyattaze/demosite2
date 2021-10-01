@@ -203,11 +203,12 @@ html {
 .main_title {
   letter-spacing: .1em;
   font-weight: 500;
-  font-size: 18px;
+  font-size: 20px;
 }
 
 .main_title > span {
   font-family: sans-serif;
+  font-size: 16px;
 }
 
 .sub_title {
