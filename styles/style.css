@@ -203,6 +203,7 @@ html {
 .main_title {
   letter-spacing: .1em;
   font-weight: 500;
+  font-size: 18px;
 }
 
 .main_title > span {
@@ -379,9 +380,6 @@ html {
   .stores {
     -ms-flex-preferred-size: 45%;
         flex-basis: 45%;
-  }
-  .main_title {
-    font-size: 18px;
   }
   .text3__item {
     -webkit-box-orient: horizontal;
