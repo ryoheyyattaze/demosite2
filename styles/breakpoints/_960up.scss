@@ -9,6 +9,12 @@
   }
 }
 
+.main {
+  &__text {
+    font-size: 100px;
+  }
+}
+
 .text3 {
   &__item {
     justify-content: space-between;
