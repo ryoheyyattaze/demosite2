@@ -3,7 +3,7 @@
   function TextAnimation(el) {
     el = document.querySelector(el);
     const str = el.innerHTML;
-    strArry = str.trim().split('');
+    const strArry = str.trim().split('');
   
     const result = strArry.reduce((acc, cur) => {
       return `${acc}<span class="char">${cur}</span>`;
